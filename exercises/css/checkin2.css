@@ -24,9 +24,10 @@ p {
 
 img {
     border: 2px solid #0C323C ;
-    margin: .65rem;
+    margin: .65rem auto;
     max-width: 100%;
     height: auto;
+    display: block;
 }
 
 h2 {
