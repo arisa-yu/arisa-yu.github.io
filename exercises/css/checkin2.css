@@ -5,7 +5,7 @@ body {
 
 h1 {
     color: #FFFFFF;
-    background-color: #7855F5 ;
+    background-color: #5F43C5 ;
     padding: 1.3rem;
     text-transform: uppercase;
     font-family: "Lilita One", sans-serif;
@@ -24,10 +24,9 @@ p {
 
 img {
     border: 2px solid #0C323C ;
-    margin: .65rem auto;
+    margin: .65rem;
     max-width: 100%;
     height: auto;
-    display: block;
 }
 
 h2 {
@@ -36,23 +35,26 @@ h2 {
     padding: 1.5rem;
 } 
 
+
 a:link {
-    color: #6A1B9A   ;
+    color: #0000EE;
     text-decoration: none;
 }
 
 a:visited {
-    color: #1B5E20 ;
+    color: #551A8B; 
 }
 
 a:hover {
-    color: #2C514C ;
+    color: #000000;
+    background-color: #FFB3D1;
     text-decoration: underline;
 }
 
 a:active {
-    color: #2E4052 ;
+    color: #FF0000; 
 }
+    
 
 hr {
     height: 1px;
