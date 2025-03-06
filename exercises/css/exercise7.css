@@ -1,0 +1,100 @@
+body {
+    background-color: #faebd7;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: right;
+}
+
+main { 
+    border: 0px solid red; 
+  } 
+
+.wrapper {
+    border: 2px black solid;
+    margin: 0 auto;
+    max-width: 40rem;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+article {
+    background-color: white;
+    border: 1px solid lightcoral;
+    padding: 1.3rem;
+    margin: .5rem;
+    margin-bottom: 1.5rem;
+    border-radius: .9rem;
+}
+
+footer {
+    background-color: black; 
+    color: white; 
+    padding: 1rem;
+  }
+
+h1 { 
+  text-align: center; 
+}
+
+footer { 
+  text-align: center;
+}
+
+a:link {
+    color: #006400;
+    text-decoration: none;
+}
+
+a:visited {
+    color: deeppink;
+}
+
+a:hover {
+    color: #8B4513;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #4B0082;
+}
+
+header a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: darkslateblue;
+    text-decoration: underline;
+}
+
+header a:active {
+    color: lightsalmon;
+    text-decoration: overline;
+}
+
+h2.logo {
+    background-color: darkcyan;
+    width: 6rem;
+    height: 6rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    border-radius: 50%;
+}
