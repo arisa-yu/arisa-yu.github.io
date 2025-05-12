@@ -1,0 +1,318 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    scroll-padding-top: 100px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/*header*/ 
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: darkcyan;
+    backdrop-filter: blur(10px);
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    overflow-x: auto;
+}
+
+.logo {
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.navbar a {
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    flex-shrink: 1;
+    text-align: center;
+}
+
+.contact { /*contact button on nav bar*/ 
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+/*footer*/ 
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+
+
+/*home */
+.home {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 12% 40px;
+    min-height: 100%;
+    background: white;
+    gap: 2rem;
+}
+
+.aboutme {
+    flex: 1 1 50%;
+    max-width: 600px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+.aboutme h3 {
+    font-size: 36px;
+}
+
+.aboutme h1 {
+    font-size: 62px;
+}
+
+.aboutme p {
+    font-size: 18px;
+    margin: 5px 0 30px;
+}
+
+.img {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img > img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+/*contact page*/
+#contact {
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 12% 40px;
+    min-height: calc(100vh - 120px);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.contact-left {
+    flex-basis: 35%;
+    padding: 20px;
+}
+
+.contact-left h1.contactme {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-left p {
+    margin: 10px 0;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.contact-right {
+    flex-basis: 60%;
+    padding: 20px;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: lightskyblue;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightblue;
+    border: none;
+    border-radius: 6px;
+    color: black;
+}
+
+/* resume */
+.resume-main {
+    margin: 0;
+    padding: 2rem;
+    max-width: none;
+    box-shadow: none;
+    background-color: transparent;
+    padding-top: 150px;
+}
+
+main h1 {
+    font-size: 3rem;
+    margin-bottom: 0.25rem;
+}
+
+hr {
+    margin: 1.5rem 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+h2 {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    color: #444;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.25rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #222;
+}
+
+p {
+    margin: 0.5rem 0 1rem 0;
+    line-height: 1.6;
+}
+
+ol, ul {
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+ul li, ol li {
+    margin-bottom: 0.3rem;
+}
+
+
+/* portfolio page */
+.portfolio-main {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: none;
+    background-color: transparent;
+    padding-top: 140px;
+}
+
+.portfolio-title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.portfolio-item {
+    background: #fff;
+    box-shadow: none;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.portfolio-caption {
+    padding: 1rem;
+}
+
+.portfolio-caption h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.portfolio-caption p {
+    font-size: 0.95rem;
+    color: #666;
+}
