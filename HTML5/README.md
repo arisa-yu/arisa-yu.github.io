@@ -1,5 +1,5 @@
 # **An Introduction to Key Terms, Tutorials, and Examples of Web Accessibility :octocat:**
-![digital accessibility](https://accessibilityspark.com/wp-content/uploads/2024/01/digital-accessibility.jpg)   
+![digital accessibility](https://accessibilityspark.com/wp-content/uploads/2024/01/digital-accessibility.jpg)    
 
 ## About me
 Hello! My name is [Arisa Yu](https://www.linkedin.com/in/arisa-yu-474815238). I am a Senior at UMass Amherst who is pursuing an interdisciplinary degree in *user experience design* and *business* with a minor in *information technology* and a certificate in *professional writing and technical communications*. I hope to further develop my skills and knowledge in the user experience, marketing, and public relations industries to dive deeper into topics that range from digital branding to implementing data to create efficient and intuitive advertisements.    
