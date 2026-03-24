@@ -1,9 +1,10 @@
 # **An Introduction to Key Terms, Tutorials, and Examples of Web Accessibility**
-[!digital accessibility] (https://maximus.com/content/dam/maximus-com/state-local-campaign-images/campaign-digital-accessibility-solutions-1149465351.jpg)
-_____
 
 ## About me
-Hello! My name is [Arisa Yu] (https://www.linkedin.com/in/arisa-yu-474815238). I am a Senior at UMass Amherst who is pursuing an interdisciplinary degree in *user experience design* and *business* with a minor in *information technology* and a certificate in *professional writing and technical communications*. I hope to further develop my skills and knowledge in the user experience, marketing, and public relations industries to dive deeper into topics that range from digital branding to implementing data to create efficient and intuitive advertisements. ⭐    
+Hello!
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+
+My name is [Arisa Yu] (https://www.linkedin.com/in/arisa-yu-474815238). I am a Senior at UMass Amherst who is pursuing an interdisciplinary degree in *user experience design* and *business* with a minor in *information technology* and a certificate in *professional writing and technical communications*. I hope to further develop my skills and knowledge in the user experience, marketing, and public relations industries to dive deeper into topics that range from digital branding to implementing data to create efficient and intuitive advertisements. ⭐    
 
 ## Overview of this accessibilty flare project
 
