@@ -23,4 +23,5 @@ I used MadCap Flare to organize the content into a help-style format with headin
 2. Designing with accessibility in mind from the start is more effective than adding it in later.
 3. Writers play a major role in accessibility, and not soley designers or programmers. 
 
+_____
 ⭐⭐⭐⭐⭐
