@@ -1,5 +1,5 @@
 # **An Introduction to Key Terms, Tutorials, and Examples of Web Accessibility**
-![digital accessibility] (https://maximus.com/content/dam/maximus-com/state-local-campaign-images/campaign-digital-accessibility-solutions-1149465351.jpg)
+[!digital accessibility] (https://maximus.com/content/dam/maximus-com/state-local-campaign-images/campaign-digital-accessibility-solutions-1149465351.jpg)
 _____
 
 ## About me
